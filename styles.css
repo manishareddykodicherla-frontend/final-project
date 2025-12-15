@@ -1,0 +1,99 @@
+.row{
+    width:1280px;
+    max-width:100%;
+    margin:0 auto;
+}
+
+.nav__logo{
+  display: flex;
+  align-items: center;
+  margin:10px;
+}
+
+.nav__img{
+    width:40px;
+    height:40px;
+    
+}
+.nav__title{
+    margin:10px;
+    font-size: 28px;;
+}
+.nav__links{
+    display:flex;
+    gap:20px;
+    justify-content: space-evenly;
+    padding:20px 20px;
+    align-items: center;
+}
+
+.nav__link{
+    list-style:none;
+    text-decoration:none;
+    font-size: 18px;
+    font-family:50;
+    
+}
+.nav__row{
+    display: flex;
+    justify-content: space-between;  
+}
+.nav__button{
+    margin:0px;
+    padding:10px;
+    border-radius:5px;
+    background-color: blueviolet;
+    color:white;
+}
+.nav__link--primary{
+    margin:0 auto;
+    border:1px solid;
+    background-color: #6415ff;
+    color: aliceblue;
+    padding:10px;
+    border-radius: 5px 8px;
+}
+.header__description{
+width:50%;
+}
+.header__row{
+    display:flex;
+    margin-top: 40px;
+    margin-left:10px;
+}
+
+
+.header__email--input{
+    position:relative;
+    padding:20px 80px 20px 80px;
+    width:(100% /2);
+    margin:20px;
+    border-radius:500px;
+
+    
+}
+.header__email--button{
+     position:absolute;
+     left:100px;
+     padding:10px;
+     margin-top:28px;
+     margin-left:145px;
+     background-color: #6415ff;
+     color:white;
+border:none;
+border-radius:500px;
+}
+.header__img--wrapper{
+    width:50%;
+}
+.header__img{  
+   max-width:512px;
+}
+.header__customers--title{
+    text-align: center;
+    font-size:20px;
+    font-family:900;
+}
+.header__customers{
+width:100%;/* this is 100% width of .header__description*/
+}
