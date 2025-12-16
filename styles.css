@@ -97,9 +97,19 @@ border-radius:500px;
 .header__customers{
 width:100%;/* this is 100% width of .header__description*/
 }
+.purple{
+    color: #6415ff;
+}
+ 
+
+.features{
+    display:flex;
+    
+      flex-wrap: wrap;
+}
 .feature{
     display: flex;
-  
+  width: calc (100%/3);
 }
 .feature__img--wrapper{
     margin:10px;
@@ -114,10 +124,7 @@ width:100%;/* this is 100% width of .header__description*/
     width:24px;
     height:24px
 }
-.features{
-    display:flex;
-      flex-wrap: wrap;
-}
+
 .feature__para{
     font-size:14px;
    
