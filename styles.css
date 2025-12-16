@@ -97,3 +97,28 @@ border-radius:500px;
 .header__customers{
 width:100%;/* this is 100% width of .header__description*/
 }
+.feature{
+    display: flex;
+  
+}
+.feature__img--wrapper{
+    margin:10px;
+}
+.feature__description{
+    margin:5px;
+}
+.feature__img{
+    border-radius:50px;
+    border: 1px solid rgb(165, 75, 75);
+    padding:20px;
+    width:24px;
+    height:24px
+}
+.features{
+    display:flex;
+      flex-wrap: wrap;
+}
+.feature__para{
+    font-size:14px;
+   
+}
