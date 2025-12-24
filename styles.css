@@ -642,7 +642,7 @@ border: 1px solid gray;
     background-color: #6415ff;
     padding:40px;
 max-width:800px;
-margin:auto;
+margin: 0 auto;
 }
 .start__title{
     color:white;
@@ -671,9 +671,8 @@ font-size:24px;
     font-size:24px;
 }
 footer{
-     background-color: #6415ff;    
-    
-  
+     background-color: #6415ff; 
+     margin-top: 20px;;   
 }
 .footer{  
   padding: 80px 24px;
@@ -747,7 +746,22 @@ footer{
 .header__description{
     margin: 100px;
 }
- 
+ .header__email {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.header__email--input {
+  flex: 1;
+  margin: 0;
+}
+
+.header__email--button {
+  position: static;
+}
 
 .features{
     display:flex;
@@ -775,18 +789,41 @@ footer{
     align-items: center;
 
 }
+
 .quality__img--wrapper{
-    margin-top:60px;
+  
+    width:100%;
+    max-width:500px;
 }
 .quality__img{
-    width:500px;
+    width:100%;
    margin:0 auto;
+   
+}
+.quality__sub-title{
+    font-size:20px;
+}
+.quality__para{
+    text-align: center;
+width:500px;
+}
+.quality__button{
+    transform: translateX(40px);
 }
 .step__row {
     display:flex;
     flex-direction:column;
 }
-
+.step__img--wrapper{
+    width:500px;
+    max-width:500px;
+    transform: translateX(20%);
+}
+.step__img{
+    max-width:400px;
+    margin:0 auto;
+    
+}
 .step{
     display: flex;
     justify-content: center;
@@ -865,8 +902,10 @@ align-items: center;
 .ratings__description{
     text-align:center;
 }
-.start__row{
-    width:600px;
+.start__row {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 .start__title{
     font-size:28px;
@@ -878,7 +917,6 @@ align-items: center;
     padding:20px;
 }
 .footer{
-    
     display:flex;
     flex-wrap:wrap;
     padding:40px;
@@ -887,10 +925,11 @@ align-items: center;
     margin-left:10px;
 }
 }
-@media (max-width:650px){
+/*@media (max-width:650px){
     .nav__row{      
-display:flex;
-justify-content: space-between;
+     display:flex;
+    justify-content: space-between;
+margin-left:20px;
     }
     .row{
         width:100%;
@@ -1040,11 +1079,9 @@ font-size:26px;
 .rating__direction{
     margin:10px;
 }
-.start__row{
-    width:400px;   
-}
+
 footer{
     width:100%;
 
 }
-}
+}*/
