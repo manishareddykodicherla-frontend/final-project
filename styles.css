@@ -1,6 +1,7 @@
 .row{
     width:100%;
     max-width:1280px;
+    margin:0 aoto;
 }
 
 body{
@@ -151,7 +152,7 @@ width:50%;
    max-width:512px;
 }
 #services{
- margin:40px;   
+ padding:40px;   
 }
 .service__title{
     text-align: center;
@@ -671,12 +672,10 @@ font-size:24px;
 }
 footer{
      background-color: #6415ff;    
-     width:100%; 
+    
+  
 }
-.footer{ 
-   
-  max-width: 1280px;
-  margin-top:20px;
+.footer{  
   padding: 80px 24px;
   display: flex;
   justify-content: space-between;
@@ -705,9 +704,8 @@ footer{
     text-decoration:underline;
 }
 .footer__bottom{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
+    max-width:1280px;
+    margin:0 auto;
 }
 .footer__image{
     width:50px;
@@ -726,7 +724,6 @@ footer{
     padding:10px;
     background-color:white;
     color:#aeaec0;
-    
     margin:20px;
     border-radius:500px;
 
