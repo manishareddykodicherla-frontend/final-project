@@ -1,18 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 .row{
     width:100%;
     max-width:1280px;
-    margin:0 auto;
+margin:0 auto;
 }
 
 body{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
-
+.btn__menu{
+    display:none;
+}
+.container{
+    padding:56px 0px;
+}
 .nav__logo{
   display: flex;
   align-items: center;
-  margin:10px;
+ 
 }
 
 .nav__img{
@@ -104,7 +114,7 @@ ul{
     color:#6415ff;
     text-decoration:none;
 }
-./*menu__link--primary{
+/*.menu__link--primary{
    border-radius:500px;
    background-color: #6415ff;
    color:white;
@@ -112,12 +122,14 @@ ul{
 }*/
 
 .header__description{
+display:flex;
+flex-direction:column;
+justify-content: space-between;
 width:50%;
 }
 .header__row{
     display:flex;
-    margin-top: 40px;
-    margin-left:10px;
+   
 }
 .header__email{
     position: relative;
@@ -144,13 +156,15 @@ width:50%;
   color: white;
   border: none;
 }
-
 .header__img--wrapper{
     width:50%;
 }
-.header__img{  
-   max-width:512px;
+
+.header__img{
+    max-width:100%;
 }
+
+
 #services{
  padding:40px;   
 }
@@ -193,7 +207,7 @@ width:100%;/* this is 100% width of .header__description*/
 .feature__row{
     display: flex;
     
-    margin:10px;
+    margin-top:10px;
 }
 .feature__img--wrapper{
     margin:10px;
@@ -554,6 +568,12 @@ background-color: rgb(110, 140, 110);
    color: white;
 font-size: 20px;
 }
+.pricing__title {
+    text-align: center;
+}
+.pricing__sub-title{
+    text-align:center;
+}
 .ratings__image--wrapper{
     width:50%;
     padding: 20px;
@@ -673,7 +693,7 @@ font-size:24px;
 footer{
      background-color: #6415ff; 
      margin-top: 20px;
-     width:100%;
+}
      
 .footer{  
   
@@ -736,6 +756,9 @@ footer{
 .nav__links{
     display:none;
 }
+.container{
+    padding:20px 0px;
+}
 .btn__menu{
     margin:20px;
 }
@@ -745,7 +768,8 @@ footer{
     margin:20px;
 }
 .header__description{
-    margin: 100px;
+   width:100%;
+   margin:0 auto;
 }
  .header__email {
   display: flex;
@@ -758,6 +782,9 @@ footer{
   position: static;
 transform: translateX(1%);
 padding:20px 6px;
+}
+.header__img{
+    width:100%;
 }
 
 .features{
@@ -902,8 +929,7 @@ align-items: center;
 .start__row {
   width: 100%;
   max-width: 1280px;
-  margin: 0 auto;
-}
+ 
 .start__title{
     font-size:28px;
 }
@@ -946,7 +972,11 @@ margin-left:20px;
     margin:20px;
 }
 .header__description{
-    margin: 100px;
+    
+    width:100%;
+}
+.header__description h2{
+    text-align: center;
 }
 .features{
     display:flex;
